@@ -11,7 +11,10 @@
   margin: 0;
 }
 
-/* De 600 para arriba aplica este código */
+/* 
+  De 600 para arriba aplica este código
+  El orden importa!, poner más bajos arriba 
+*/
 @media (min-width: 600px) {
   .oferta {
     max-width: 40rem;
