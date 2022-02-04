@@ -1,0 +1,26 @@
+/* Media queries entre dos tamaños */
+
+.oferta {
+  background-color: #00446e;
+  text-align: center;
+  padding: 2rem;
+}
+
+.precio {
+  font-size: 6rem;
+  margin: 0;
+}
+
+/* de 600 a 800 px */
+@media (min-width: 600px) and (max-width: 800px),
+  (min-width: 1200px) and (max-width: 1400px) {
+  .oferta {
+    background-color: yellow;
+  }
+}
+/* 
+@media (min-width: 800px) {
+  .oferta {
+    background-color: #00446e;
+  }
+} */
