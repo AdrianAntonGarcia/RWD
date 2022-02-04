@@ -1,0 +1,6 @@
+/* Creando un snippet para media queries 'mq'*/
+@media (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
