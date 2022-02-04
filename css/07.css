@@ -1,0 +1,9 @@
+/* Crear contenedores responsive */
+
+.contenedor-responsive {
+  background-color: #fff;
+  height: 400px;
+  margin: 0 auto;
+  /* max-width: 1000px; */
+  width: min(90%, 1000px);
+}
